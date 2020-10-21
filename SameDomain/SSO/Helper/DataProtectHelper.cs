@@ -65,7 +65,7 @@ namespace SSO.Helper
                     return rijndaelManaged.CreateDecryptor();
                 case OpType.Encrypt:
                     return rijndaelManaged.CreateEncryptor();
-                default: throw new Exception("enkonw type");
+                default: throw new Exception("AES-enkonw type");
             }
         }
 
